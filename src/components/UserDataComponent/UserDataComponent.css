@@ -1,1 +1,128 @@
-    
+/* UserDataComponent.module.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar container */
+.navbarContainer {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.pageTitle {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* User details section */
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.userInfoLabel {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.userInfoValue {
+    margin: 0;
+    color: #555;
+}
+
+/* Address Section */
+.addressSection {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.addressTitle {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Navbar for search section */
+.navbar-light {
+    background-color: #f8f9fa !important;
+    padding: 10px;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 250px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-search {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-search:hover {
+    background-color: #218838;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .userDetails {
+        padding: 15px;
+        margin: 10px;
+        max-width: 100%;
+    }
+
+    .userInfoLabel,
+    .userInfoValue {
+        font-size: 14px;
+    }
+
+    .pageTitle {
+        font-size: 20px;
+    }
+
+    .addressTitle {
+        font-size: 20px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .btn-search {
+        padding: 6px 12px;
+    }
+}
+

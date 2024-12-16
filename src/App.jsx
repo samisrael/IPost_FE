@@ -3,11 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import LoginComponent from './components/LoginComponent/LoginComponent';
 import SignupComponent from './components/SignUpComponent/SignUpComponent';
-import DeliveryForm from './components/DeliveryForm/DeliveryForm';
-import DeliveryList from './components/DeliveryList/DeliveryList';
-import TimeSlotPicker from './components/TimeSlotPicker/TimeSlotPicker';
 import UserDataComponent from './components/UserDataComponent/UserDataComponent';
-
 
 const App = () => {
     return (
@@ -35,14 +31,18 @@ const App = () => {
 
                     <div className='auth-wrapper'>
                         <div className='auth-inner'>
-                            <Routes>
-                                <Route exact path='/' element={<LoginComponent/>}/>
-                                <Route path='/login' element={<LoginComponent/>}/>
-                                <Route path='/signup' element={<SignupComponent/>}/>
-                                <Route path='/deliveryform' element={<DeliveryForm/>}/>
-                                <Route path='/deliverylist' element={<DeliveryList/>}/>
-                                <Route path='/timeslotpicker' element={<TimeSlotPicker/>}/>
-                            </Routes>
+                        <Routes>
+                            
+                            <Route exact path='/' element={<LoginComponent />} />
+                            
+                            <Route path='/login' element={<LoginComponent />} />
+                            
+                            <Route path='/signup' element={<SignupComponent />} />
+                                                
+                            <Route path='/userdata' element={<UserDataComponent />} />
+
+                        </Routes>
+                        
                         </div>
                     </div>
                 
@@ -50,5 +50,4 @@ const App = () => {
         </Router>
     );
 }
-
 export default App;
