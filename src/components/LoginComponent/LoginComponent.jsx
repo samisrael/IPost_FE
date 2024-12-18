@@ -28,6 +28,7 @@ const LoginComponent = () => {
               alert(`Welcome ${response.data.firstName} ${response.data.lastName} !`)
               window.localStorage.setItem('token',response.data.token)
               window.location.href = '/userdata'
+              
             }
         })
         .catch((error) => {
