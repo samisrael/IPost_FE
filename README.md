@@ -75,6 +75,6 @@ For more details on the backend implementation, visit the [Backend Repository](h
     [10] H. Shi, H. Ghahremannezhad, and C. Liu, “Anomalous driving detection for traffic surveillance video analysis,” in 2021 IEEE International Conference on Imaging Systems and Techniques (IST), pp. 1–6, IEEE, 2021.
 
 ## Contributors
- ##->samisrae
- ##->Balamurugan
- ##->vijaykumar
+ **->samisrael**
+ **->Balamurugan**
+ **->vijaykumar**
