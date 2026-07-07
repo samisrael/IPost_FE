@@ -76,5 +76,7 @@ For more details on the backend implementation, visit the [Backend Repository](h
 
 ## Contributors
  **->samisrael**
+ 
  **->Balamurugan**
+ 
  **->vijaykumar**
